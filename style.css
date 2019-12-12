@@ -1,0 +1,44 @@
+/* Style sheet for index, portfolio, and contact pages */
+
+.collapse navbar-collapse{
+  float: right;
+}
+
+#navbarNav {
+  float: right;
+}
+
+body {
+    background-image: url("images/herringbone.png");
+  }
+  
+  footer {
+      text-align: center;
+      color: #fff;
+  }
+  @media screen and (max-width: 768px) {
+      body {
+        text-align: left;
+      }
+      .wrapper {
+        width: 100%;
+      }
+    }
+  
+    @media screen and (max-width: 640px) {
+      body {
+        text-align: center;
+      }
+      .navbar-brand {
+          margin: 0 auto;
+      }
+      .navbar-toggler {
+        width: 100%;
+      }
+      .nav-item {
+        margin: 0px;
+      }
+      .wrapper {
+        width: 100%;
+      }
+    }
