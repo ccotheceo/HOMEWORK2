@@ -16,6 +16,8 @@ This is a portfolio has been built to properly display on any screen size.
 
 ## Built With 
 
+```
 -HTML 
 -Bootstrap
 -CSS
+```
